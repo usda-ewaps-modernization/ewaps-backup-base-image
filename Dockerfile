@@ -1,3 +1,3 @@
 FROM usdadaito/backup:latest
 
-RUN apt update --allow-releaseinfo-change && apt upgrade
+RUN apt -y update --allow-releaseinfo-change && apt -y upgrade
